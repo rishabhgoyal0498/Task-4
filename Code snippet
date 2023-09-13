@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Load your dataset into a Pandas DataFrame
+data = pd.read_csv('your_dataset.csv')
+
+# Use describe() to generate summary statistics for numeric columns
+summary_stats = data.describe()
+
+# Print the summary statistics
+print(summary_stats)
